@@ -16,5 +16,6 @@
 			"platforms": ["android", "mac", "win"],
 			"importance": "required"
 		}
-	}
+	},
+	"tags": ["customization", "enhancement", "interface", "offline", "utility"]
 }
