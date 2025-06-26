@@ -1,0 +1,20 @@
+{
+	"geode": "4.6.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074"
+	},
+	"id": "omgrod.popup_keybinds",
+	"name": "Popup Keybinds",
+	"version": "v1.0.0",
+	"developer": "OmgRod",
+	"description": "Adds keybinds to popups' buttons",
+	"dependencies": {
+		"geode.custom-keybinds": {
+			"version": ">=1.10.4",
+			"platforms": ["android", "mac", "win"],
+			"importance": "required"
+		}
+	}
+}
