@@ -17,5 +17,10 @@
 			"importance": "required"
 		}
 	},
-	"tags": ["customization", "enhancement", "interface", "offline", "utility"]
+	"tags": ["customization", "enhancement", "interface", "offline", "utility"],
+	"links": {
+		"community": "https://discord.gg/vK3DuqJwyW",
+		"homepage": "https://omgrod.me/",
+		"source": "https://github.com/OmgRod/PopupKeybinds"
+	}
 }
