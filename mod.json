@@ -7,7 +7,7 @@
 	},
 	"id": "omgrod.popup_keybinds",
 	"name": "Popup Keybinds",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "OmgRod",
 	"description": "Adds keybinds to popups' buttons",
 	"dependencies": {

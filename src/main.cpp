@@ -43,6 +43,14 @@ class $modify(MyFLAlertLayer, FLAlertLayer) {
 				}
 				return ListenerResult::Propagate;
 			}, "btn2"_spr);
+		} else {
+			this->template addEventListener<InvokeBindFilter>([&](InvokeBindEvent* event) {
+				if (event->isDown()) {
+					onBtn1(nullptr);
+					return ListenerResult::Stop;
+				}
+				return ListenerResult::Propagate;
+			}, "btn2"_spr);
 		}
 
 		return true;
