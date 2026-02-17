@@ -1,20 +1,27 @@
 {
-	"geode": "4.6.1",
+	"geode": "5.0.0-beta.3",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081"
 	},
 	"id": "omgrod.popup_keybinds",
 	"name": "Popup Keybinds",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "OmgRod",
 	"description": "Adds keybinds to popups' buttons",
-	"dependencies": {
-		"geode.custom-keybinds": {
-			"version": ">=1.10.4",
-			"platforms": ["android", "mac", "win"],
-			"importance": "required"
+	"settings": {
+		"btn1": {
+			"name": "Button 1",
+			"type": "keybind",
+			"default": "C",
+			"description": "Keybind for button 1 (Typically a cancel button)"
+		},
+		"btn2": {
+			"name": "Button 2",
+			"type": "keybind",
+			"default": ["Space", "Enter"],
+			"description": "Keybind for button 1 (Typically a confirm button)"
 		}
 	},
 	"tags": ["customization", "enhancement", "interface", "offline", "utility"],
