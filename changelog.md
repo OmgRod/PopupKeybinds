@@ -1,3 +1,8 @@
+# v1.0.3
+
+- Update to v5 beta 4
+- Add keybind categories
+
 # v1.0.2
 
 - Update to 2.2081 (Geode v5)
