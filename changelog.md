@@ -2,6 +2,7 @@
 
 - Update to v5 beta 4
 - Add keybind categories
+- Add iOS support (keyboard support not guaranteed)
 
 # v1.0.2
 
